@@ -27,5 +27,6 @@ public class MainBuildingStreams {
         streamOfInt.limit(5).forEach(System.out::println);
 
         stream.filter(integer -> integer > 2).forEach(System.out::println);
+
     }
 }
