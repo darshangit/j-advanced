@@ -21,7 +21,7 @@ public class CreatingSpliterator {
 
             Stream<Person> people = StreamSupport.stream(peopleSpilterator, false);
             people.forEach(System.out::println);
-
+//            people.sorted().forEach(System.out::println);
 
         } catch(IOException e) {
             e.printStackTrace();
